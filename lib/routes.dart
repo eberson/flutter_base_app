@@ -1,5 +1,4 @@
-import 'package:base_app/pages/about/about_page_widget.dart';
-import 'package:base_app/pages/home/home_page_widget.dart';
+import 'package:base_app/pages/login/login_page_widget.dart';
 
 import 'nav.dart';
 
@@ -11,13 +10,13 @@ List<FFRoute> routes = [
   //       appStateNotifier.loggedIn ? const NavBarPage() : const LoginPageWidget(),
   // ),
   FFRoute(
-    name: 'AboutPage',
-    path: '/about',
-    builder: (context, params) => const AboutPageWidget(),
+    name: LoginPageWidget.routeName,
+    path: LoginPageWidget.routePath,
+    builder: (context, _) => const LoginPageWidget(),
   ),
   FFRoute(
-    name: 'HomePage',
-    path: '/',
-    builder: (context, params) => const HomePageWidget(),
+    name: "_initialize",
+    path: "/",
+    builder: (context, _) => const LoginPageWidget(),
   ),
 ];

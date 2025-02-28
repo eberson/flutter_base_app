@@ -4,7 +4,7 @@
 #na variável repositório, prefira a url do repositório baseada em https para nao termos que configurar SSH
 export name='Eberson Oliveira'
 export email="eberson.oliveira@gmail.com"
-export repositorio="https://github.com/eberson/flutter_base_app.git";
+export repositorio="https://github.com/eberson/e_shop.git";
 
 #Daqui pra baixo mexa somente se for realmente necessário ou se souber o que está fazendo :P
 
