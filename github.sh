@@ -8,6 +8,8 @@ export repositorio="https://github.com/eberson/flutter_base_app.git";
 
 #Daqui pra baixo mexa somente se for realmente necessário ou se souber o que está fazendo :P
 
+rm -Rf .git
+
 export branch_name="aula-$(date -I)"
 
 #add linux, mac and windows folders to gitignore
